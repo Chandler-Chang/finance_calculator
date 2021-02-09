@@ -1,8 +1,3 @@
-/* Honors Project FIN380
- * Chandler Chang
- * Description: An all-in-one finance calculator for key topics learned in FIN380.
- */
-
 import java.util.Scanner;
 import java.lang.Math;
 
