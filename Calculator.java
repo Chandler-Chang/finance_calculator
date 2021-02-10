@@ -99,11 +99,6 @@ public class Calculator {
 					}
 				break;
 					
-				case 9:
-					displayAbout();
-					pressEnterToContinue();
-					break;
-					
 				case 0: 
 					System.exit(0);
 					
@@ -492,22 +487,8 @@ public class Calculator {
 		System.out.println("3) Stocks/Bonds");
 		System.out.println("4) Housing");
 		System.out.println("5) Credit");
-		System.out.println("9) About the system");
 		System.out.println("0) Exit");
 		System.out.println("----------------------------");
-	}
-	
-	private static void displayAbout() {
-		System.out.println("This is my holistic finance calculator, submitted as an honors project "
-				+ "for Prof. Hoffman's FIN380 course. \nThis calculator optimizes user experience, asking "
-				+ "for simple personal finance information and handling the \ncalculations. It includes "
-				+ "functions for many key topics learned in the course such as federal tax liability, \n"
-				+ "present/future value, stock/bond value, AYTM, ROI, margin, and loan payments. The "
-				+ "calculations use mathematical \nformulas instead of tables (D1, D2, M1, etc.), which "
-				+ "allows for more precise calculations and any choice of \ninterest rates, not just those "
-				+ "listed on the tables. Some topics such as AYTM and ROI are included in the same \nline "
-				+ "of questions, which required calculations for interactions that were not explicitly "
-				+ "covered in class, such \nas calculating AYTM with a purchase on margin. Enjoy!\n");
 	}
 	
 	//calculate tax liability using 2018 tax table
